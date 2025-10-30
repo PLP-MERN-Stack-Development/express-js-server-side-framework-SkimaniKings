@@ -134,7 +134,7 @@ GET http://localhost:3000/api/products/1
 **Description:** Create a new product. Requires authentication using an API key in headers.  
 **Headers:**
 ```
-x-api-key: mysecretkey
+x-api-key: mysecretkey123Simon
 ```
 **Example Request Body:**
 ```json
@@ -162,7 +162,7 @@ x-api-key: mysecretkey
 **Description:** Update an existing product (authenticated).  
 **Headers:**
 ```
-x-api-key: mysecretkey
+x-api-key: mysecretkey123Simon
 ```
 **Example Request:**
 ```
@@ -194,7 +194,7 @@ PUT http://localhost:3000/api/products/1
 **Description:** Delete a product (authenticated).  
 **Headers:**
 ```
-x-api-key: mysecretkey
+x-api-key: mysecretkey123Simon
 ```
 **Example Request:**
 ```
@@ -272,7 +272,7 @@ The API uses a global error handler that returns consistent error responses.
 Certain routes (`POST`, `PUT`, `DELETE`) require an API key.  
 **Header:**
 ```
-x-api-key: mysecretkey
+x-api-key: mysecretkey123Simon
 ```
 If the key is missing or invalid:  
 ```json
